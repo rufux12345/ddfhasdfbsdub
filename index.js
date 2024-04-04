@@ -50,7 +50,7 @@ app.post("/", (req, res) => {
 
 app.get("/html", (req, res) =>{
     var url = req.url
-    res.redirect("https://stackoverflow.com/questions/28225458/get-response-of-url-in-nodejs-express-http")
+    res.redirect("www.html.com")
 })
 app.get("/css", (req, res) =>{
     var url = req.url
@@ -79,7 +79,7 @@ app.get("/expressjs", (req, res) =>{
 )
 app.get("/ejs", (req, res) =>{
     var url = req.url
-    res.redirect()
+    res.redirect("https://ejs.co/")
 })
 app.get("/react", (req, res) =>{
     var url = req.url
